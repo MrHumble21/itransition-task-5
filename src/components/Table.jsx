@@ -3,7 +3,7 @@ import {CSVLink} from "react-csv";
 
 const MyTable = ({index, fullName, country, phone, address}) => {
     const csvData = [
-        ["fullName", "country", "phone", 'address'],
+        ["Full name", "Country name", "Phone Number", 'Address'],
         [fullName, country, phone, address]
     ];
     return (
