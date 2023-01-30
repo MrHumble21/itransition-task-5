@@ -14,7 +14,7 @@ const MyTable = ({index, fullName, country, phone, address}) => {
             <td>{phone}</td>
             <td>{address}</td>
             <td>
-                <CSVLink data={csvData}>Download me</CSVLink>;
+                <CSVLink data={csvData}>Download CSV</CSVLink>;
             </td>
         </tr>
     );
