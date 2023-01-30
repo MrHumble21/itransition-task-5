@@ -19,7 +19,6 @@ const Main = () => {
         let randMidName = Math.floor(Math.random() * country.middleNames.length);
         let randLastName = Math.floor(Math.random() * country.lastNames.length);
         return [
-
             range > 0 ? country.names[randName] + randomCharacter : country.names[randName],
             country.middleNames[randMidName],
             country.lastNames[randLastName],
@@ -161,6 +160,7 @@ const Main = () => {
                         <th scope="col">Country</th>
                         <th scope="col">Phone</th>
                         <th scope="col">Address</th>
+                        <th scope="col">CSV</th>
                     </tr>
                     </thead>
                     <tbody>
